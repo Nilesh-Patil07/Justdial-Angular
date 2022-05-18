@@ -11,6 +11,7 @@ export class ContactUsComponent implements OnInit {
   constructor(private base: BaseConfigService) {
     let myaddress = this.base.getAddress();
     console.log(myaddress);
+
     let myname = this.base.getName();
     console.log(myname);
   }
